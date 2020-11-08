@@ -56,7 +56,13 @@ td{
   	  font-size:13px;
       align-content: space-between;
 }
-
+h1{
+	text-align: center;
+	color:#AD1085
+}
+#redes{
+	cursor: pointer;
+}
 
 
 

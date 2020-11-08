@@ -11,20 +11,20 @@ body {
 </style>
 <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
-<table width="100%" border="0" cellspacing="0">
+ <table width="100%" border="0" cellspacing="0">
   <tbody>
     <tr>
       <td height="49"><table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
         <tbody>
           <tr>
-            <td width="15%"><img src="images/logo.jpg" width="151" height="76" alt=""/></td>
+            <td width="15%"><a href="index.html"> <img src="images/logo.jpg" width="151" height="76" alt=""/></a></td>
             <td width="21%"><table width="63%" border="0" align="center" cellpadding="0" cellspacing="0">
               <tbody>
                 <tr>
                   <td width="27%">&nbsp;</td>
-                  <td width="47%"><img src="images/fbinst.png" width="68" height="33" alt=""/></td>
+                  <td width="47%"><img src="images/Facebook.png" width="48" height="33" alt="" onclick="redes()" id="redes"/></td>
+                  <td width="47%"><img src="images/Instagram.png" width="58" height="33" alt="" onclick="redes()" id="redes"/></td>
                   <td width="26%">&nbsp;</td>
                   </tr>
               </tbody>
@@ -39,10 +39,14 @@ body {
     </table></td>
     </tr>
     <tr>
-      <td height="269"><img src="images/banner.png" width="1332" height="454" alt=""/></td>
+      <td><h1>Nuestro próximo evento inicia en:  <span id="clock"></span></h1></td>
     </tr>
     <tr>
-      <td height="557" align="center"><p class="titulos">TERRITORIO DE PAZ </p>
+      <td height="269"><img src="images/banner.png" width="1332" height="454" alt="" /></td>
+    </tr>    
+    
+    <tr>
+       <td height="557" align="center"><p class="titulos">TERRITORIO DE PAZ </p>
         <p align="center" class="subtitulos"><strong><em>&ldquo;El  camino hacia la paz, no es más que la paz misma&rdquo;</em></strong></p>
         <table width="95%" border="0" align="center" cellpadding="0" cellspacing="10">
           <tbody>
@@ -70,5 +74,6 @@ body {
     </tr>
   </tbody>
 </table>
+<script src="./javascrip.js"></script>
 </body>
 </html>
