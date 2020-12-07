@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+/*Regla para general para todo el documento*/
+body {
+  font-family: "Gotic", Century Gothic;
+  font-size:13px;
+  align-content:space-between;
+  border: 0px #FFFFFF solid;
+  -webkit-font-smoothing: antialiased;
+}
+
+div
+{
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/*Links visitados*/
+a:visited{
+	color:#0A8BD3;
+}
+/*Links cuando pasa en mouse encima*/
+a:hover{
+	color:#EF0BCA;
+}
+
+td{
+	color: #202698;
+}
+/*Regla para titulos*/
+
+.titulos{
+	font-size: 24px;
+	font-style:normal;
+	font-weight:bold;
+	color:#AD1085
+}
+
+/*Regla para sub-titulos*/
+.subtitulos{
+	font-size:16px;
+	font-style: italic;
+	font-weight:bold;
+	color:#6519C4;
+}
+/*Regla para los links del menu*/
+
+.menu{
+	font-size:16px;
+	font-weight:bold;
+	color:#0063EB;
+}
+
+.parrafos{
+	  font-family: "Gotic", Century Gothic;
+  	  font-size:13px;
+      align-content: space-between;
+}
+h1{
+	text-align: center;
+	color:#AD1085
+}
+#redes{
+	cursor: pointer;
+}
+.container {
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+}
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #AD1085;
+	margin-bottom: 1rem;
+}
+.form__top h2 {
+	font-weight: bold;
+	color: #AD1085;
+	font-size: 18px;
+}	
+h2 span {
+	color: #202698;
+}
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #C8C8C8 .2rem;
+	transition: all .5s;
+}
+.input:focus {
+	border-bottom: solid #AD1085 .2rem;
+}	
+.btn__submit, .btn__reset {
+	width: 40%;
+	border-bottom: none;
+	background-color: #31B1E5;
+	color: white;
+}
+
+.btn__submit:hover {
+	background-color: #AD1085;
+}
+.btn__reset:hover{
+	background-color: #202698;
+}
+
+
+

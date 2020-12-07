@@ -9,7 +9,7 @@ body {
 	background-image: url(images/fondoweb.jpg);
 }
 </style>
-<link href="estilos.css" rel="stylesheet" type="text/css">
+<link href="estilos2.css" rel="stylesheet" type="text/css">
 <meta name="meta" content="fundacion donacion voluntario niños adulto mayor fenix deporte juventud ">
 </head>
 
@@ -62,51 +62,30 @@ body {
               <td width="50%"><p class="subtitulos">Dejanos tus Datos: </p>
                 <p>Escribenos y dejanos tus datos de contacto para comunicarnos contigo, gracias por ayudar a los mas de 2500 niños en pobreza extrema.</p>
                 <p>&nbsp;</p>
-                <form id="form1" name="form1" method="post">
-                  <p>
-                    <label for="nombre2">Nombres:</label>
-                    <input name="nombre" type="text" required id="nombre2" form="form1" size="30">
-                    <label for="apellido">Apelidos:</label>
-                    <input name="apellido" type="text" required id="apellido" form="form1" size="30">
-                  </p>
-                  <p>
-                    <label for="tel">Tel:</label>
-                    <input name="tel" type="tel" required id="tel" form="form1">
-                    <label for="email">Email:</label>
-                    <input name="email" type="email" required id="email" form="form1" autocomplete="on" size="48">
-                  </p>
-                  <p>
-                    <label for="select">Selecciona el proyecto que mas te gusta:</label>
-                    <select name="select" required id="select" form="form1" title="proyecto">
+                <form class="form__reg" action="">
+                  <input class="input" type="text" placeholder="&#128100;  Nombre" required autofocus>
+                  <input class="input" type="text" placeholder="&#128100;  Apellido" required autofocus>
+                  <input class="input" type="email" placeholder="&#9993;  Email" required>
+                  <input class="input" type="text" placeholder="&#128222;  Telefono" required>
+                                   
+                    <label for="select">Selecciona el proyecto que vas a apoyar:</label>
+                    <select name="select" required id="select" form="form2" title="proyecto">
                       <option>Alimentos</option>
                       <option>Fenix</option>
                       <option>Juventud al Servicio</option>
                       <option>Otro</option>
                     </select>
-                  </p>
-                  <p>
-                    <label for="textarea">Comentarios:<br>
-                    </label>
-                    <textarea name="textarea" maxlength="2000" id="textarea" form="form1" title="comcontacto"></textarea>
-                    <label for="textfield"><br>
-                      <br>
-                      <input type="submit" name="submit" id="submit" value="Enviar">
-<br>
-                    </label>
-                  </p>
+                 <p><label>Comentarios</label></p>   
+                 <textarea name="comentarios" rows="10" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
+                 <div class="btn__form">
+                    <input class="btn__submit" type="submit" value="ENVIAR">
+                 </div>
                 </form>
-                <p><span class="parrafos">Si tienes alguna solicitud, duda o quieres conocer mas acerca de nuestros proyectos en funcion de tus donaciones no dudes en comunicarte!.</span></p>
+                <p><span class="parrafos">Si tienes alguna solicitud, duda o quieres conocer mas acerca de nuestros proyectos en funcion de tus donaciones no dudes en comunicarte!.</span></p><br>
                 <p class="subtitulos">Telefonos:</p>
                 <p class="subtitulos"><span class="menu">7815815 - 319 2295238</span></p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               </p>
-                <p></p>
-                <p>&nbsp;</p>
-              <p>&nbsp;</p></td>
-              <td width="25%"><p class="subtitulos">&nbsp;</p></td>
+                
+            <td width="25%"><p class="subtitulos">&nbsp;</p></td>
             </tr>
           </tbody>
         </table></td>

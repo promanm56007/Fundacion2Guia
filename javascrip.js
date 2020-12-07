@@ -30,7 +30,7 @@ const getRemainingTime = deadline => {
     }, 1000)
   };
   
-  countdown('Dec 10 2020 10:30:00 GMT-0500', 'clock', '¡Ya empezó!');
+  countdown('Dec 18 2020 10:30:00 GMT-0500', 'clock', '¡Ya empezó!');
 
   function redes(){
        alert("Sitio en construcción");

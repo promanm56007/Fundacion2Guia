@@ -9,7 +9,7 @@ body {
 	background-image: url(images/fondoweb.jpg);
 }
 </style>
-<link href="estilos.css" rel="stylesheet" type="text/css">
+<link href="estilos2.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -46,94 +46,66 @@ body {
       <tr>
         <td><h1>Nuestro próximo evento inicia en:  <span id="clock"></span></h1></td>
       </tr>
-      <td height="936" align="center"><p class="titulos">Sumate+</p>
-        <table width="100%" border="0" align="center" cellpadding="20" cellspacing="0">
-          <tbody>
-            <tr>
-              <td width="13%" height="887"><p class="subtitulos">&nbsp;</p></td>
-              <td width="37%"><p class="subtitulos"><img src="images/img14.png" width="409" height="768" alt=""/></p></td>
-              <td width="50%"><p class="subtitulos">Sumate a la causa<span style="text-align: center"></span></p>
-                <p>Una manita nunca va a sobrar, apoyanos con tu labor social en cada una de las actividaes puedes donar un dia de trabajo para ayudar a los mas necesitados.</p>
-                <p>Sumate con una donacion en especie o en dinero, para ello diligencia el formulario y cuentanos como quieres ayudar! </p>
-                <p>&nbsp;</p>
-                <p class="subtitulos">Formulario de Inscripcion </p>
-                <p>Registrate y empieza a ayudar:</p>
-                <form id="form2" name="form2" method="post">
-                  <p>&nbsp;</p>
-                  <p>
-                    <label for="nombre3">Nombres:</label>
-                    <input name="nombre" type="text" required id="nombre3" form="form2" size="30">
-                    <label for="apellido">Apelidos:</label>
-                    <input name="apellido" type="text" required id="apellido" form="form2" size="30">
-                  </p>
-                  <p>
-                    <label for="tel">Tel:</label>
-                    <input name="tel" type="tel" required id="tel" form="form2">
-                    <label for="email">Email:</label>
-                    <input name="email" type="email" required id="email" form="form2" autocomplete="on" size="40">
-                  </p>
-                  <p>
-                    <label for="select">Selecciona el proyecto que vas a apoyar:</label>
-                    <select name="select" required id="select" form="form2" title="proyecto">
-                      <option>Alimentos</option>
-                      <option>Fenix</option>
-                      <option>Juventud al Servicio</option>
-                      <option>Otro</option>
-                    </select>
-                  </p>
-                  <p>Como sera tu contribuccion? 
-                    <label>
-                      <br>
-                      <br>
-                      <input type="radio" name="OpcionDonacion" value="opción" id="OpcionDonacion_0">
-                    Especie</label>
+      <tr>
+        <td  align="center"><p class="titulos">Sumate+</p></td>
+      </tr>
+      <tr>
+        <td <span style="text-align: center"></span>
+          <p>Una manita nunca va a sobrar, apoyanos con tu labor social en cada una de las actividaes puedes donar un dia de trabajo para ayudar a los mas necesitados.</p>
+          <p>Sumate con una donacion en especie o en dinero, para ello diligencia el formulario y cuentanos como quieres ayudar! </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <div class="form__top">
+              <h2>Formulario <span> de Registro</span></h2>
+            </div>		
+            <form class="form__reg" action="">
+              <input class="input" type="text" placeholder="&#128100;  Nombre" required autofocus>
+              <input class="input" type="text" placeholder="&#128100;  Apellido" required autofocus>
+              <input class="input" type="email" placeholder="&#9993;  Email" required>
+              <input class="input" type="text" placeholder="&#128222;  Telefono" required>
+              <input class="input" type="text" placeholder="&#8962;  Dirección" required>
+              
+                <label for="select">Selecciona el proyecto que vas a apoyar:</label>
+                <select name="select" required id="select" form="form2" title="proyecto">
+                  <option>Alimentos</option>
+                  <option>Fenix</option>
+                  <option>Juventud al Servicio</option>
+                  <option>Otro</option>
+                </select>
+                <p>Como sera tu contribuccion? 
+                  <label>
                     <br>
-                    <label>
-                      <input type="radio" name="OpcionDonacion" value="opción" id="OpcionDonacion_1">
-                      Dinero</label>
                     <br>
-                    <label>
-                      <input type="radio" name="OpcionDonacion" value="opción" id="OpcionDonacion_2">
-                      Voluntariado</label>
-                    <br>
-                  </p>
-                  <p>
-                    <label for="textarea">Cuentanos:</label>
-                    <label for="textfield"><br>
-                      <textarea name="textarea" maxlength="2000" id="textarea" title="ccomsumate"></textarea>
-                      <br>
-                      <br>
-                      <input name="submit" type="submit" id="submit" form="form2" title="enviarsumate" value="Enviar">
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                      <span style="text-align: right"></span>
-<input name="reset" type="reset" id="reset" title="resturar" value="Restablecer">
-                      <br>
-                      <br>
-                      <br>
-                    </label>
-                  </p>
-                  <p></p>
-                </form></td>
-            </tr>
-          </tbody>
-        </table></td>
-    </tr>
-    <tr>
-      <td height="37"><p>&nbsp;</p>
-        <table width="46%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <input type="radio" name="OpcionDonacion" value="opción" id="OpcionDonacion_0">
+                  Especie</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="OpcionDonacion" value="opción" id="OpcionDonacion_1">
+                    Dinero</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="OpcionDonacion" value="opción" id="OpcionDonacion_2">
+                    Voluntariado</label>
+                  <br>
+                </p>
+             <div class="btn__form">
+                <input class="btn__submit" type="submit" value="REGISTRAR">
+                <input class="btn__reset" type="reset" value="LIMPIAR">	
+              </div>
+            </form>
+          </div>
+        </td>
+      </tr>
+              <table width="46%" border="0" align="center" cellpadding="0" cellspacing="0">
         <tbody>
           <tr>
             <td>copyrigth - Diseño web 2020 site : Edison Zubieta - Jenniffer Gomez - Pablo Roman </td>
           </tr>
         </tbody>
-      </table></td>
+      </table>
     </tr>
   </tbody>
 </table>
